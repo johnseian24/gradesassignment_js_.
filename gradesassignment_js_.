@@ -1,0 +1,29 @@
+// Prompt user for input score (in a real environment like browser, use prompt)
+let score = parseInt (prompt ("Enter your score: "));
+// Assign grade using Conditional Ternary statements
+let grade = (score >= 97) ? '1.00 - Excellent' :
+(score >= 94 && score < = 96) ? '1.25 - Excellent' :
+(score >= 91 && score < = 93）? '1.50 - Above Average' :
+(score >= 88 && score < = 90) ? '1.75 - Above Average' :
+(score >= 85 && score ＜＝ 87) ? '2.00 - Average' :
+(score >= 82 && score ＜＝ 84) ? '2.25 - Average' :
+(score >= 79 && score く= 81) ? '2.50 - Below Average' :
+(score >= 76 && score <= 78) ? '2.75 - Below Average' :
+(score == 75) ? '3.00 - Be & Average' :
+(score >= 72 && score <= 74,? '4.00 - Poor' :
+'5.00 - Poor';
+//assign final remark using if..else statements 
+let remarks;
+if (score >= 90) {
+remarks = "HIGH PASS, candidate for cum laude";
+} else if ( score >= 80 && score <= 89) {
+remarks = "AVERAGE PASS";
+} else if (score >= 75 && score <= 79) {
+remarks = "LOW PASS";
+} else {
+remark = "FAILED, need imrpovement":
+}
+log the corresponding grade and remarks to the console 
+console . log ("score :;, score);
+console . log ("grade :;, grade);
+console . log (remarks:;. remarks);
